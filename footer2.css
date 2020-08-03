@@ -1,0 +1,106 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+#lastFooter{
+    width: 100%;
+    height: 50%;
+    background-color: #4A4541;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#last-footer-media{
+    width: 60%;
+    height: 30%;
+}
+#media{
+    width: 100%;
+    height: 95%;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+}
+#border{
+    width: 100%;
+    height: 5%;
+    background: url('./line1.png');
+    background-size: cover;
+    background-position: center;
+}
+#media-btn{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+#last-footer-content{
+    margin-top: 2%;
+    width: 75%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: white
+}
+#last-footer-sanible{
+    width: 15%;
+    margin-top: 3.5%;
+    height: 20%;
+    display: flex;
+}
+#sanible-logo{
+    width: 40%;
+    height: 100%;
+  background-image: url('./Capture2.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#sanible-content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+#last-footer-contact-details{
+    width: 50%;
+    height: 6%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 10px;
+}
+#sanible-content-para{
+    display: inline; 
+    font-size: 13px; 
+    letter-spacing: 2px; 
+    font-weight: 500
+}
+#sanible-content-h4-one{
+    font-size: 19px;
+}
+#end-line{
+    font-size: 10px;
+    color: white;
+    margin-top: 0.5%;
+}

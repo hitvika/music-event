@@ -1,0 +1,141 @@
+.main_box {
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    background: url('./background.png') repeat-x;
+    background-size: auto 40%;
+}
+.image1_container {
+    height: 400px;
+    width: 100%;
+    background: url(./grid1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1 {
+    margin-top: 60%; 
+    color: white;
+}
+.image2_container {
+    height: 160px;
+    width: 100%;
+    background: url(./grid2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image2 {
+    color: white; 
+    padding-top: 15%; 
+    padding-left: 20px;
+}
+.image3_container {
+    height: 240px;
+    width: 100%;
+    background: url(./grid3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3 {
+    color: white; 
+    padding-top: 30%; 
+    padding-left: 20px;
+}
+.image4_container {
+    height: 180px;
+    width: 100%;
+    background: url(./grid4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image4 {
+    margin-top: 22%; 
+    color: white;
+}
+.image5_container {
+    height: 180px;
+    width: 100%;
+    background: url(./grid5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image5 {
+    margin-top: 20%; 
+    color: white;
+}
+.headliners {
+    font-weight: bold; 
+    font-size: 45px; 
+    text-align: right;
+}
+.text {
+    color: white;
+}
+.image_container {
+    width: 80%; 
+    margin-left: 10%
+}
+.image_container2 {
+    width: 80%; 
+    margin-left: 10%;
+}
+.location {
+    background-color: #68AC4C; 
+    border-radius: 1px solid transparent; 
+    border-radius: 10px; 
+    font-size: 12px;
+}
+.name_font {
+    font-size: 20px;
+}
+.date_font {
+    font-size: 12px;
+}
+.lineup {
+    background-color: #E76327;
+}
+.view_button {
+    padding: 1px; 
+    width: 70px; 
+    font-size: 13px; 
+    border-radius: 30px;
+    color: #E76327; 
+    background-color: white; 
+    font-weight: 600;
+}
+.text_color {
+    color: white;
+}
+.show_icon {
+    display: inline;
+}
+.hide_icon {
+    display: inline-block;
+}
+@media screen and (max-width: 600px) {
+    .headliners {
+        text-align: left;
+    }
+    .image_container {
+        width: 90%; 
+        margin-left: 3%
+    }
+    .image_container2 {
+        width: 90%; 
+        margin-left: 3%
+    }
+    .image1 {
+        margin-top: 90%;
+    }
+    .image2 {
+        padding-top: 22%; 
+    }
+    .image3 {
+        padding-top: 45%; 
+    }
+    .show_icon {
+        display: inline;
+    }
+    .hide_icon {
+        display: none;
+    }
+}

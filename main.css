@@ -1,0 +1,20 @@
+@import "events.css";
+@import "footer1.css";
+@import "gallery.css";
+@import "infoCard.css";
+@import "menu.css";
+@import "navbar.css";
+@import "scheduleCard.css";
+@import "venues.css";
+@import "timer.css";
+@import "footer2.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}

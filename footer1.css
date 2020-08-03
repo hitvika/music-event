@@ -1,0 +1,214 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#footer1{
+    width: 100%;
+    height: 60%;
+}
+#back-img{
+    width: 100%;
+    height: 100%;
+    background: url('./footer1-back.png');
+    background-size: cover;
+}
+#cutpaper{
+    width: 100%;
+    height: 8%;
+    background: url('./7575.png');
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#overlay-main{
+    width: 100%;
+    height: 91%;
+    display: flex;
+}
+#footer-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+#footer-left-content{
+    width: 80%;
+    height: 80%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#footer-left-content-heading{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+#footer-left-content-para{
+    font-size: 17px;
+    margin-top: 3%;
+}
+#footer-left-content-input{
+    padding: 13px;
+    width: 350px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: #CFCCC9;
+    height: 20px;
+    margin-top: 15px;
+}
+#footer-left-content-btn{
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+#footer-left-content-area{
+    margin-top: 5%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between
+}
+#footer-right{
+    width: 50%;
+    height: 100%;
+}
+#footer-right-phone{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+#footer-right-phone-one{
+    width: 30%;
+    height: 60%;
+    /* background: url('./footer1-mob1.png'); */
+    background: url('./footer1-mob1.png');
+    background-size: cover;
+    margin-top: 4.5%;
+    border: 10px solid black;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: black;
+}
+#footer-right-phone-two{
+    width: 26%;
+    height: 40%;
+    background: url('./footer1-mob2.png');
+    background-position: center;
+    background-size: cover;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    margin-top: 4.5%;
+    border: 10px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: black;
+}
+#footer-right-content{
+    width: 40%;
+    height: 45%;
+    margin-bottom: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+#footer-right-content-btn{
+    width: 200px; 
+    padding: 9px; 
+    border-radius: 30px; 
+    border: 2px solid white; 
+    background-color: transparent; 
+    font-size: 17px;
+    color: white;
+    margin-left: 50px;
+}
+.mobile_app {
+    font-size: 40px; 
+    font-weight: 400; 
+    position: absolute; 
+    top: 21%;
+    left: 67%
+}
+.mobile_text {
+    position: absolute; 
+    top: 30%; 
+    left: 67%
+}
+.download_button {
+    position: absolute; 
+    top: 39%; 
+    left: 76%
+}
+@media screen and (max-width:600px) {
+    #footer-left{
+        width: 100%;
+    }
+    #footer-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #footer-left-content{
+        width: 90%;
+    }
+    #footer1{
+        width: 100%;
+        height: 100%;
+    }
+    #cutpaper{
+        height: 5%;
+    }
+    #overlay-main{
+        flex-direction: column;
+    }
+    .mobile_app {
+        font-size: 40px; 
+        font-weight: 400; 
+        position: relative;
+        margin-top: 20px; 
+    }
+    .mobile_text {
+        position: relative;
+    }
+    .download_button {
+        position: relative;
+    }
+    #footer-right-phone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 20%;
+        margin-bottom: -10%;
+    }
+    #footer-right-content{
+        width: 100%;
+        height: 15%;
+        margin-bottom: 18%;
+        display: inline-block;
+        color: white;
+        margin-left: -60%;
+    }
+    #footer-left-content-area{
+        display: flow-root;
+    }
+    #footer-left-content-btn{
+        margin-top: 15px;
+    }
+}

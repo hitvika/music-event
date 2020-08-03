@@ -1,0 +1,54 @@
+
+.main_box1 {
+    padding: 2%;
+}
+.main_container {
+    display: flex;
+}
+.color {
+    color: #018DAC;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+.image_large {
+    height: 450px;
+    width: 100%;
+}
+.image_small {
+    height: 225px; 
+    width: 100%;
+}
+.venue_location {
+    color: #0990AE; 
+    font-size: 20px; 
+    font-weight: bold;
+    padding-right: 10px;
+}
+.text_font {
+    font-size: 18px;
+    display: flex;
+}
+.heading_text {
+    font-size: 22px;
+    color: #FF661C;
+}
+.info_button {
+    color: #FE7A39; 
+    border-color: #FE7A39; 
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .text_font {
+        display: inline;
+    }
+    .color {
+        margin-left: 0;
+    }
+    .main_container {
+        flex-direction: column-reverse;
+    }
+}

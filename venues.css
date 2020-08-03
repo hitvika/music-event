@@ -1,0 +1,142 @@
+#venues{
+    width: 100%;
+    height: 100%;
+    background-color: #4C9C3F;
+}
+#mapimg{
+    width: 100%;
+    height: 100%;
+    background: url('./venuesMap.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding-inline-end: 25px;
+}
+#image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./venuesPhoto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.45)
+}
+#details{
+    /* width: 60%;
+    height: 85%; */
+    color: white;
+}
+#dots{
+    color: white;
+    margin-top: 90%;
+    margin-left: 5%;
+    font-weight: 600;
+}
+#dots i{
+    letter-spacing: 3px;
+}
+#dots p{
+    font-size: 28px;
+    margin-bottom: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#textureText {
+	background: url('./textcheck.png') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.detailsPara{
+    font-size: 20px;
+    margin-top: 25%; 
+    margin-left: 5%;
+}
+#details h1{
+    font-size: 70px; 
+    margin-left: 4%
+}
+.font-family{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.randomDots{
+    position: absolute;
+    color: white;
+}
+#captiveIsland{
+    margin-top: 4%;
+    width: 75%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#text{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#details-btn{
+    padding: 15px;
+    width: 270px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    margin-right: 3%;
+}
+#smallCircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 16%;
+    left: 10.5%;
+    opacity: 0.7;
+}
+#largeCircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 12%;
+    left: 8.5%;
+    opacity: 0.4;
+}
+.hide {
+    display: flex;
+}
+.show {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .hide {
+        display: none;
+    }
+    .show {
+        display: flex;
+        font-size: 55px;
+        font-weight: bold;
+    }
+    #image {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    #details-btn{
+        padding: 5px;
+    }
+}

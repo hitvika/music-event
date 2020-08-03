@@ -1,0 +1,179 @@
+#experience{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+#topExp{
+    width: 100%;
+    /* height: 30%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#expContent{
+    width:35%;
+    height: 90%;
+}
+#expContent-heading{
+    font-size: 40px; 
+    letter-spacing: 2px; 
+    font-weight: 400; 
+    margin-top: 1%; 
+    color: #219CB6
+}
+#expContent-para{
+    font-size: 20px; 
+    margin-top: 5%; 
+    line-height: 30px;
+}
+#topExp-btn{
+    padding: 12px; 
+    width: 300px; 
+    font-size: 22px;
+    border: 2px solid #FF6418; 
+    border-radius: 30px; 
+    background-color: transparent; 
+    color: #FF6418
+}
+#bottomExp{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom-exp-images{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    padding-top: 75%; 
+    padding-left: 4%;
+}
+.img1-layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+#img1{
+    width: 15%;
+    height: 100%;
+    background: url('./exp1.png');
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.margin-class{
+    padding-top: 140%;
+}
+.margin-class2{
+    padding-top: 125%;
+    text-align: right
+}
+#img2{
+    width: 25%;
+    height: 100%;
+    background: url('./exp2.png');
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#img2-btn{
+    width: 150px;
+    font-size: 10px;
+    padding: 1%;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+#img3-btn{
+    width: 150px;
+    font-size: 10px;
+    padding: 1%;
+    background-color: #FD6418;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+#img3{
+    width: 26%;
+    height: 65%;
+    background-image: url('./exp3.png');
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    padding-top: 25%;
+    padding-left: 2%;
+    top:35%;
+    left: 34%;
+}
+#img4{
+    width: 25%;
+    height: 100%;
+    background: url('./exp4.png');
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 13%;
+}
+#img4-btn{
+    width: 150px;
+    font-size: 10px;
+    padding: 1%;
+    background-color: #FD6418;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+#img5{
+    width: 15%;
+    height: 100%;
+    background: url('./exp5.png');
+    background-size: cover  ;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#img5-btn{
+    width: 150px;
+    font-size: 10px;
+    padding: 1%;
+    padding-right: 0;
+    background-color: #008DAC;
+    border: none;
+    color: white;
+   border-radius: 30px;
+}
+.hide {
+    display: inline;
+}
+@media screen and (max-width: 600px) {
+    .hide {
+        display: none;
+    }
+    #img3{
+        width: 100%;
+        position: inherit;
+    }
+    #topExp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #expContent{
+        width:100%;
+    }
+}
